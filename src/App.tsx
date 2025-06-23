@@ -4,96 +4,96 @@ import { ShoppingCart, ArrowLeft, Package, Ruler, Droplets, ChevronLeft, Chevron
 const products = [
   {
     id: 1,
-    name: "Classic Red Hoodie",
-    price: 79.99,
+    name: "Klasyczna Czerwona Bluza",
+    price: 180,
     images: [
       "/images/red-hoodie.png",
       "/images/red-hoodie2.png",
       "/images/red-hoodie3.png",
       "/images/red-hoodie4.png"
     ],
-    description: "Premium organic cotton blend with relaxed fit. Perfect for casual wear and layering.",
-    color: "Red",
-    composition: "80% Organic Cotton, 20% Recycled Polyester",
-    sizing: "Runs true to size. Model is 6'0\" wearing size M. Available in XS-XXL.",
-    care: "Machine wash cold with like colors. Tumble dry low. Do not bleach or iron directly on design."
+    description: "Mieszanka bawełny organicznej premium o luźnym kroju. Idealna do noszenia na co dzień i warstwowego ubierania.",
+    color: "Czerwony",
+    composition: "80% Bawełna Organiczna, 20% Poliester z Recyklingu",
+    sizing: "Rozmiar zgodny z tabelą. Model ma 183 cm wzrostu i nosi rozmiar M. Dostępne rozmiary XS-XXL.",
+    care: "Prać w zimnej wodzie z podobnymi kolorami. Suszyć w suszarce na niskiej temperaturze. Nie wybielać ani nie prasować bezpośrednio na nadruku."
   },
   {
     id: 2,
-    name: "Midnight Black Hoodie",
-    price: 84.99,
+    name: "Północna Czarna Bluza",
+    price: 195,
     images: ["/images/black-hoodie.png"],
-    description: "Timeless black hoodie with soft fleece lining. Essential wardrobe staple for any season.",
-    color: "Black",
-    composition: "100% Premium Cotton with Brushed Fleece Interior",
-    sizing: "Relaxed fit design. Model is 5'8\" wearing size S. Unisex sizing available XS-XXL.",
-    care: "Machine wash cold separately. Hang dry recommended. Iron on low heat if needed."
+    description: "Ponadczasowa czarna bluza z miękką podszewką z polaru. Niezbędny element garderoby na każdą porę roku.",
+    color: "Czarny",
+    composition: "100% Bawełna Premium z Czesanym Polarem Wewnątrz",
+    sizing: "Luźny krój. Model ma 173 cm wzrostu i nosi rozmiar S. Rozmiary unisex dostępne XS-XXL.",
+    care: "Prać w zimnej wodzie osobno. Zalecane suszenie na powietrzu. W razie potrzeby prasować na niskiej temperaturze."
   },
   {
     id: 3,
-    name: "Pure White Hoodie",
-    price: 74.99,
+    name: "Czysta Biała Bluza",
+    price: 170,
     images: ["/images/white-hoodie.png"],
-    description: "Clean white hoodie made from sustainable materials. Minimalist design meets comfort.",
-    color: "White",
-    composition: "85% Sustainable Cotton, 15% Modal Blend",
-    sizing: "Modern fit with slight taper. Model is 5'6\" wearing size M. True to size fit.",
-    care: "Wash with whites only in cold water. Use oxygen bleach if needed. Tumble dry medium."
+    description: "Czysta biała bluza wykonana z materiałów zrównoważonych. Minimalistyczny design spotyka się z komfortem.",
+    color: "Biały",
+    composition: "85% Zrównoważona Bawełna, 15% Mieszanka Modal",
+    sizing: "Nowoczesny krój z lekkim zwężeniem. Model ma 168 cm wzrostu i nosi rozmiar M. Rozmiar zgodny z tabelą.",
+    care: "Prać tylko z białymi ubraniami w zimnej wodzie. W razie potrzeby używać wybielacza tlenowego. Suszyć w suszarce na średniej temperaturze."
   },
   {
     id: 4,
-    name: "Forest Green Hoodie",
-    price: 89.99,
+    name: "Leśna Zielona Bluza",
+    price: 205,
     images: ["/images/green-hoodie.png"],
-    description: "Rich forest green with durable construction. Ideal for outdoor activities and urban style.",
-    color: "Green",
-    composition: "70% Organic Cotton, 25% Recycled Polyester, 5% Elastane",
-    sizing: "Athletic fit with stretch. Model is 6'2\" wearing size L. Consider sizing up for looser fit.",
-    care: "Machine wash cold with dark colors. Air dry preferred. Do not use fabric softener."
+    description: "Bogata leśna zieleń o trwałej konstrukcji. Idealna do aktywności na świeżym powietrzu i stylu miejskiego.",
+    color: "Zielony",
+    composition: "70% Bawełna Organiczna, 25% Poliester z Recyklingu, 5% Elastan",
+    sizing: "Sportowy krój z rozciągliwością. Model ma 188 cm wzrostu i nosi rozmiar L. Rozważ większy rozmiar dla luźniejszego dopasowania.",
+    care: "Prać w zimnej wodzie z ciemnymi kolorami. Preferowane suszenie na powietrzu. Nie używać płynu do zmiękczania tkanin."
   },
   {
     id: 5,
-    name: "Ocean Blue Hoodie",
-    price: 82.99,
+    name: "Oceaniczna Niebieska Bluza",
+    price: 190,
     images: ["/images/blue-hoodie.png"],
-    description: "Deep ocean blue with modern cut. Premium cotton blend for superior comfort and fit.",
-    color: "Blue",
-    composition: "90% Pima Cotton, 10% Polyester for Shape Retention",
-    sizing: "Contemporary fit. Model is 5'10\" wearing size M. Fits true to size with room for layering.",
-    care: "Cold wash with similar colors. Tumble dry low. Remove promptly to prevent wrinkles."
+    description: "Głęboki oceaniczny błękit o nowoczesnym kroju. Mieszanka bawełny premium dla najwyższego komfortu i dopasowania.",
+    color: "Niebieski",
+    composition: "90% Bawełna Pima, 10% Poliester dla Zachowania Kształtu",
+    sizing: "Współczesny krój. Model ma 178 cm wzrostu i nosi rozmiar M. Rozmiar zgodny z tabelą z miejscem na warstwowe ubieranie.",
+    care: "Prać w zimnej wodzie z podobnymi kolorami. Suszyć w suszarce na niskiej temperaturze. Wyjąć natychmiast, aby zapobiec pomiarszczeniu."
   },
   {
     id: 6,
-    name: "Warm Beige Hoodie",
-    price: 77.99,
+    name: "Ciepła Beżowa Bluza",
+    price: 175,
     images: ["/images/beige-hoodie.png"],
-    description: "Soft beige hoodie with luxurious texture. Versatile neutral tone for effortless styling.",
-    color: "Beige",
-    composition: "75% Supima Cotton, 25% Cashmere Blend",
-    sizing: "Luxury relaxed fit. Model is 5'7\" wearing size S. Generous sizing for comfort.",
-    care: "Gentle cycle cold wash. Lay flat to dry. Professional cleaning recommended for best results."
+    description: "Miękka beżowa bluza o luksusowej fakturze. Wszechstronny neutralny odcień do bezproblemowego stylizowania.",
+    color: "Beżowy",
+    composition: "75% Bawełna Supima, 25% Mieszanka Kaszmiru",
+    sizing: "Luksusowy luźny krój. Model ma 170 cm wzrostu i nosi rozmiar S. Hojny rozmiar dla komfortu.",
+    care: "Delikatny cykl prania w zimnej wodzie. Suszyć na płasko. Zalecane czyszczenie profesjonalne dla najlepszych rezultatów."
   },
   {
     id: 7,
-    name: "Sunshine Yellow Hoodie",
-    price: 79.99,
+    name: "Słoneczna Żółta Bluza",
+    price: 180,
     images: ["/images/yellow-hoodie.png"],
-    description: "Vibrant yellow hoodie with premium finish. Bold color choice for confident style statements.",
-    color: "Yellow",
-    composition: "82% Ring-Spun Cotton, 18% Polyester French Terry",
-    sizing: "Standard fit with modern silhouette. Model is 5'9\" wearing size M. True to size.",
-    care: "Wash inside out in cold water. Avoid direct sunlight when drying. Iron inside out if needed."
+    description: "Żywa żółta bluza o premium wykończeniu. Odważny wybór kolorystyczny dla pewnych siebie stylizacji.",
+    color: "Żółty",
+    composition: "82% Bawełna Ring-Spun, 18% Poliester French Terry",
+    sizing: "Standardowy krój o nowoczesnej sylwetce. Model ma 175 cm wzrostu i nosi rozmiar M. Rozmiar zgodny z tabelą.",
+    care: "Prać na lewą stronę w zimnej wodzie. Unikać bezpośredniego światła słonecznego podczas suszenia. W razie potrzeby prasować na lewą stronę."
   },
   {
     id: 8,
-    name: "Charcoal Gray Hoodie",
-    price: 87.99,
+    name: "Węglowa Szara Bluza",
+    price: 200,
     images: ["/images/grey-hoodie.png"],
-    description: "Sophisticated charcoal gray with refined details. Perfect balance of style and functionality.",
-    color: "Gray",
-    composition: "88% Premium Cotton, 12% Recycled Polyester Blend",
-    sizing: "Tailored fit with clean lines. Model is 6'1\" wearing size L. Fits true to size.",
-    care: "Machine wash cold with like colors. Tumble dry low. Steam or iron on medium heat."
+    description: "Wyrafinowana węglowa szarość z dopracowanymi detalami. Idealna równowaga stylu i funkcjonalności.",
+    color: "Szary",
+    composition: "88% Bawełna Premium, 12% Mieszanka Poliestrowa z Recyklingu",
+    sizing: "Dopasowany krój o czystych liniach. Model ma 185 cm wzrostu i nosi rozmiar L. Rozmiar zgodny z tabelą.",
+    care: "Prać w zimnej wodzie z podobnymi kolorami. Suszyć w suszarce na niskiej temperaturze. Parować lub prasować na średniej temperaturze."
   }
 ];
 
@@ -141,7 +141,7 @@ function App() {
               className="flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-200 mb-4"
             >
               <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Collection
+              Powrót do Kolekcji
             </button>
             <h1 className="text-3xl font-bold text-gray-900">
               {selectedProduct.name}
@@ -157,7 +157,7 @@ function App() {
               <div className="relative aspect-square overflow-hidden rounded-2xl shadow-lg">
                 <img
                   src={selectedProduct.images[currentImageIndex]}
-                  alt={`${selectedProduct.name} - Image ${currentImageIndex + 1}`}
+                  alt={`${selectedProduct.name} - Zdjęcie ${currentImageIndex + 1}`}
                   className="w-full h-full object-cover"
                 />
                 
@@ -200,7 +200,7 @@ function App() {
                     >
                       <img
                         src={image}
-                        alt={`${selectedProduct.name} thumbnail ${index + 1}`}
+                        alt={`${selectedProduct.name} miniatura ${index + 1}`}
                         className="w-full h-full object-cover"
                       />
                     </button>
@@ -227,12 +227,12 @@ function App() {
                 </p>
                 
                 <div className="text-4xl font-bold text-gray-900 mb-8">
-                  ${selectedProduct.price}
+                  {selectedProduct.price} zł
                 </div>
 
                 <button className="w-full bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center space-x-3 text-lg">
                   <ShoppingCart className="h-6 w-6" />
-                  <span>Add to Cart</span>
+                  <span>Dodaj do Koszyka</span>
                 </button>
               </div>
 
@@ -241,7 +241,7 @@ function App() {
                 <div className="flex items-start space-x-4">
                   <Package className="h-6 w-6 text-gray-600 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Composition</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Skład</h3>
                     <p className="text-gray-600">{selectedProduct.composition}</p>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ function App() {
                 <div className="flex items-start space-x-4">
                   <Ruler className="h-6 w-6 text-gray-600 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Sizing Information</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Informacje o Rozmiarach</h3>
                     <p className="text-gray-600">{selectedProduct.sizing}</p>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ function App() {
                 <div className="flex items-start space-x-4">
                   <Droplets className="h-6 w-6 text-gray-600 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Care Instructions</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Instrukcje Pielęgnacji</h3>
                     <p className="text-gray-600">{selectedProduct.care}</p>
                   </div>
                 </div>
@@ -276,10 +276,10 @@ function App() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <h1 className="text-3xl font-bold text-gray-900 text-center">
-            Premium Hoodie Collection
+            Kolekcja Premium Bluz
           </h1>
           <p className="text-gray-600 text-center mt-2">
-            Discover comfort and style in every piece
+            Odkryj komfort i styl w każdym elemencie
           </p>
         </div>
       </header>
@@ -303,7 +303,7 @@ function App() {
                 {/* Multiple images indicator */}
                 {product.images.length > 1 && (
                   <div className="absolute top-3 right-3 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
-                    +{product.images.length - 1} more
+                    +{product.images.length - 1} więcej
                   </div>
                 )}
               </div>
@@ -326,11 +326,11 @@ function App() {
                 
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-gray-900">
-                    ${product.price}
+                    {product.price} zł
                   </span>
                   
                   <div className="text-sm text-gray-500 hover:text-gray-700 transition-colors duration-200">
-                    View Details →
+                    Zobacz Szczegóły →
                   </div>
                 </div>
               </div>
